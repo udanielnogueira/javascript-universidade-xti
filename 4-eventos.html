@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<title>JavaScript Aula 04</title>
+	<meta charset="UTF-8"/>
+
+	<style type="text/css">
+	body{
+		background-color: #000000;
+		margin-top: 150px;
+	}
+	img#xlamp{
+		display: block; 
+		margin: 0px auto; 
+		height: 300px;
+	}
+	</style>
+
+
+	<script type="text/JavaScript">
+	function ligar(){
+		document.getElementById("xlamp").src="img/xlamp-on.jpg";
+	}
+	</script>
+
+</head>
+
+
+
+
+<body>
+
+	<img id="xlamp" onclick="ligar();" src="img/xlamp-off.jpg"/>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+a{
+	color:green;
+	text-decoration: none;	
+}
+	
+body{
+	background-color: #ffffff;
+}
+
+/* Imagem */
+img
+{
+	width:700px;
+	display: block;
+	margin: auto;
+}
+
+
+/* Linhas da tabela */
+td
+{
+	border:2px; 
+	border-style:solid;
+	border-color:#707070;
+	font-size:13pt;
+	color:#202020;
+	padding:5px;
+}
+
+/* Campos de texto */
+input
+{
+ width:300px;
+
+ display:block;
+ float:center;
+
+ margin: auto;
+ margin-top:10px;
+}
+
+/* Kilos, Metros e cm */
+label
+{
+ font-size:20px;
+ width:100px;
+
+ display:block;
+ float:left;
+
+ margin: auto;
+ margin-top:5px;
+}
+
+/* Campo do IMC */
+fieldset
+{
+ font-size:25px;
+ width:550px;
+
+
+ display:block;
+ float:center; 
+ 
+ margin: auto;
+ margin-top:20px;
+}
+
+
+	
