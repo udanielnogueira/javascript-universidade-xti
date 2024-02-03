@@ -2,36 +2,29 @@
 <html lang="pt-br">
 
 <head>
-
 	<title>JavaScript Aula 07</title>
-	<meta charset="UTF-8"/>
+	<meta charset="UTF-8">
 
-	<style type="text/css"> </style>
+	<style type="text/css"></style>
 
 	<script type="text/JavaScript">
+		x1 = window.prompt("Insira o valor de x","aqui");
+		y1 = window.prompt("Insira o valor de y","aqui");
 
-	 x1=window.prompt("Insira o valor de x","aqui");
-	 y1=window.prompt("Insira o valor de y","aqui");
+		// Convertendo string para inteiro
+		// x2 = parseInt(x1,10);
+		// y2 = parseInt(y1,10);
+		
+		// Convertendo string para inteiro
+		x1 = +x1;
+		y1 = +y1;
 
-	 /* 
-	 Primeira maneira que aprendi para converter uma string
-	 x2=parseInt(x1,10);
-	 y2=parseInt(y1,10);
-	 */
-
-	 x1= +x1;
-	 y1= +y1;
-
-	 resultado=x1+y1;
-
-	 document.write("resultado: "+resultado);
-
+		resultado = x1 + y1;
+		document.write("Resultado: " + resultado);
 	</script>
-
 </head>
 
 <body>
-
+	<p>JavaScript Aula 07</p>
 </body>
-
 </html>

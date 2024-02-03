@@ -1,17 +1,14 @@
-//Cálculo do IMC
-
-function calcularIMC()
-{
+function calcularIMC() {
+	var imc;
+	var altura;
 	var formulario;
 	var kilos, metros, centimetros;
-	var altura;
-
-	var imc;
-
-	//Resgate do Formulário
+	
+	// Resgate do formulário
 	formulario = document.getElementById("formulario");
 
-	//Resgate de valores - "+" faz a string virar integer
+	// Resgate de valores 
+	// O + converta string para integer
 	kilos = +formulario.kilos.value;
 	metros = +formulario.metros.value;
 	centimetros = +formulario.centimetros.value;
@@ -19,6 +16,6 @@ function calcularIMC()
 	altura = metros + centimetros / 100 ;
 	imc = ( kilos ) / ( altura * altura );
 
-	//Colocar 
+	// Colocar 
 	formulario.imc.value = imc.toFixed(2);
-}﻿
+}
